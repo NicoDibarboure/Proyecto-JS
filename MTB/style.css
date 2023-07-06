@@ -1,0 +1,201 @@
+/* Fuente */
+@import url("https://fonts.googleapis.com/css2?family=Arimo&family=Poppins:wght@400;500;600;700;800&display=swap");
+
+/* Generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #080202;
+  font-family: "Arimo", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Botones carousel */
+.swiper-button-next::after {
+    font-size: 25px;
+}
+.swiper-button-prev::after {
+    font-size: 25px;
+}
+.swiper-button-next {
+    color: #DB241B;
+}
+.swiper-button-prev {
+    color: #DB241B;
+}
+
+.swiper-pagination-bullet {
+    background-color: #D3d2d2;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #DB241B;
+}
+
+/* Menu */
+.menu {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+.navbar {
+    display: flex;
+}
+.menu-1 {
+    margin-right: 180px;
+}
+.menu2 {
+    margin-left: 180px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-1 {
+    width: 0;
+}
+.logo-2 {
+    width: 150px;
+}
+
+.socials {
+    display: flex;
+}
+
+/* Redes sociales */
+.social {
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #DB241B;
+    border-radius: 50%;
+}
+
+.social:hover {
+    background-color: #DB241B;
+}
+
+.social img { 
+    margin: 8px 0 0 10px;
+}
+
+/* Listas */
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: #DB241B;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+/* Header */
+.header-content {
+    margin-top: 200px;
+    padding-bottom: 50px;
+}
+
+/* Slider */
+.slider {
+    display: flex;
+    align-items: center;
+}
+
+.slider-txt {
+    margin-left: 85px;
+    width: 50%;
+}
+
+.slider-txt h1 {
+    font-size: 70px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.slider-txt p {
+    font-size: 18px;
+    color: #A7A7A7;
+}
+
+/* Botones */
+.botones {
+    margin-top: 50px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 15px 35px;
+    border: 2px solid #DB241B;
+    color: #FFFFFF;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+
+.btn-1:hover {
+    background-color: #DB241B;
+}
+
+/* Imagenes del slider */
+.slider-img {
+    width: 50%;
+}
+
+.slider-img img {
+    margin-right: 225px;
+    width: 550px;
+}
+
+
+/* 1:15:08 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
