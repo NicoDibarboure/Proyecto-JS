@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #080202;
+  background-color: #000000;
   font-family: "Arimo", sans-serif;
   font-family: "Poppins", sans-serif;
 }
@@ -29,10 +29,10 @@ body {
     font-size: 25px;
 }
 .swiper-button-next {
-    color: #DB241B;
+    color: #d6b246;
 }
 .swiper-button-prev {
-    color: #DB241B;
+    color: #d6b246;
 }
 
 .swiper-pagination-bullet {
@@ -41,7 +41,7 @@ body {
 }
 
 .swiper-pagination-bullet-active {
-    background-color: #DB241B;
+    background-color: #d6b246;
 }
 
 /* Menu */
@@ -71,6 +71,9 @@ body {
 }
 .logo-2 {
     width: 150px;
+    position: relative;
+    left: -100px;
+    top: -17px;
 }
 
 .socials {
@@ -82,12 +85,12 @@ body {
     margin: 0 10px;
     height: 40px;
     width: 40px;
-    border: 1px solid #DB241B;
+    border: 1px solid #d6b246;
     border-radius: 50%;
 }
 
 .social:hover {
-    background-color: #DB241B;
+    background-color: #d6b246;
 }
 
 .social img { 
@@ -107,7 +110,7 @@ body {
 }
 
 .menu .navbar ul li a:hover {
-    color: #DB241B;
+    color: #d6b246;
 }
 
 #menu {
@@ -160,7 +163,7 @@ body {
 .btn-1 {
     display: inline-block;
     padding: 15px 35px;
-    border: 2px solid #DB241B;
+    border: 2px solid #d6b246;
     color: #FFFFFF;
     font-weight: 800;
     letter-spacing: 2px;
@@ -170,7 +173,7 @@ body {
 }
 
 .btn-1:hover {
-    background-color: #DB241B;
+    background-color: #d6b246;
 }
 
 /* Imagenes del slider */
@@ -219,7 +222,7 @@ body {
 }
 
 .tabs input[type="radio"]:checked+label {
-    border-bottom: 2px solid #DB241B;
+    border-bottom: 2px solid #d6b246;
     color: #FFFFFF;
 }
 
@@ -319,7 +322,7 @@ body {
 .btn-2 {
     display: inline-block;
     padding: 15px 35px;
-    background-color: #DB241B;
+    background-color: #d6b246;
     color: #FFFFFF;
     font-weight: 800;
     text-transform: uppercase;
