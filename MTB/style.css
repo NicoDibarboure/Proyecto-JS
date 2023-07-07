@@ -201,6 +201,7 @@ body {
     text-align: center;
     cursor: pointer;
     color: #A7A7A7;
+    font-size: 18px;
     font-weight: 700;
     transition: background ease 0.2s;
 }
@@ -220,6 +221,10 @@ body {
 .tabs input[type="radio"]:checked+label {
     border-bottom: 2px solid #DB241B;
     color: #FFFFFF;
+}
+
+.tabs input[type="radio"]:checked+label + .tab {
+    display: block;
 }
 
 .product {
@@ -542,3 +547,5 @@ body {
         margin: 25px 0px 10px 0px;
     }
 }
+
+/* 1:56:05 */
